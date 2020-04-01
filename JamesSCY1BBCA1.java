@@ -14,7 +14,8 @@ public class JamesSCY1BBCA1 {
    // create Scanner to obtain inputs
    Scanner input = new Scanner(System.in);
    
-   System.out.printf("%nDo you want to proceed with your candy purchase?
+   System.out.printf("%s%n%sn",
+                     Do you want to proceed with your candy purchase?,
                        \ 'Y\' or \ 'N\'  : ");
    Proceed = input.nextLine().chartAt(0);
 /**
@@ -66,7 +67,7 @@ public class JamesSCY1BBCA1 {
 /**
  * Ask customer how many candies are they buying.
 */
-   System.out.printf(ì%nQuantity for %s:  ì,  candy) ;
+   System.out.printf(‚Äú%nQuantity for %s:  ‚Äú,  candy) ;
      itemTotal = quantity * price
      Subtotal = subtotal + itemTotal;
      
@@ -121,7 +122,7 @@ System.out.printf("%s", salesReceipt);
 
 System.out.printf("%n
                       
-                      ìFAIRYTALE SWEETSî
+                      ‚ÄúFAIRYTALE SWEETS‚Äù
                       "North Star Mall"
                       "San Antonio, TX"
                       
